@@ -1,7 +1,8 @@
 module.exports = {
   title: 'paul-home',
   description: 'This is Just playing around',
-  dest: 'public',
+  dest: 'docs',
+  base:'/docs/', //要部署的根目录，不配置的话，都会到网站根目录下面
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
